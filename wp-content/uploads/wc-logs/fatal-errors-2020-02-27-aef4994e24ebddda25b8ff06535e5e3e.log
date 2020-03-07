@@ -1,0 +1,4 @@
+2020-02-27T09:35:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\house-of-shopping\wp-includes\Requests\Transport\cURL.php on line 463
+
+2020-02-27T09:41:34+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\house-of-shopping\wp-includes\Requests\Transport\cURL.php on line 163
+

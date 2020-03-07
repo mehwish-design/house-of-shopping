@@ -1,0 +1,114 @@
+/*
+Theme Name: Divi Child
+Author: Mehwish
+Description: It is a child theme of divi
+Template: divi
+Text Domain: divichild
+*/
+
+#main-header .nav li ul {
+    background-color: transparent;
+}
+
+a.et-cart-info {
+    display: none;
+}
+
+
+
+.et_overlay::after{
+    font-family: none;
+}
+
+div#et_top_search::after {
+    content: "search";
+    font-size: 17px;
+    padding-left: 24px;
+    float: left;
+    margin-top: -6px;
+}
+
+div#et-top-navigation {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+ul#top-menu #menu-item-145 a {
+    font-size: 17px;
+}
+
+
+#et_top_search {
+    display: block;
+    float: right;
+    position: relative;
+    width: 18px;
+    margin: 3px 0 0 22px;
+    margin-left: -154px;
+    margin-bottom: -16px;
+}
+
+
+
+.woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale {
+    color: black;
+}
+
+a {
+    color: purple;
+}
+
+
+
+body .et_shop_image .et_overlay:before {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    margin: 265px 0 0 -22px;
+    width: 149px;
+    content: "Add To Card" !important;
+    font-family: open sans !important;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    background: #a896c8;
+    font-size: 19px;
+    padding: 12px;
+}
+
+.woocommerce span.onsale, .woocommerce-page span.onsale {
+    background: #a896c8 !important;
+}
+
+.et_portfolio_image, .et_shop_image {
+    border: outset;
+    margin-bottom: 60px;
+}
+
+.et_pb_module.et_pb_search.et_pb_search_0.et_pb_bg_layout_dark.et_pb_text_align_left {
+    border-radius: 80px;
+    background: white;
+}
+
+.et_pb_section.et_pb_section_4.et_pb_with_background.et_section_regular {
+    margin-top: -215px;
+}
+
+.et_pb_search.et_pb_bg_layout_dark input.et_pb_searchsubmit {
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 4px;
+    border-radius: 53px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+div#sidebar {
+    display: none;
+}
+
+.et_right_sidebar #main-content .container:before {
+    right: 0 !important;
+}
