@@ -6,6 +6,12 @@ Template: divi
 Text Domain: divichild
 */
 
+
+
+.container::before {
+    display: none;
+}
+
 #main-header .nav li ul {
     background-color: transparent;
 }
@@ -105,10 +111,49 @@ body .et_shop_image .et_overlay:before {
     padding-right: 32px;
 }
 
+
 div#sidebar {
     display: none;
 }
 
+
+.entry {
+    margin: 20px;
+}
+
+
 .et_right_sidebar #main-content .container:before {
     right: 0 !important;
+}
+
+
+div#content-area {
+    background: mediumpurple;
+}
+
+
+.row {
+    margin: 50px 102px;
+    padding: 24px;
+    font-size: 21px;
+}
+
+
+.sitemap {
+    padding: 43px;
+    border: solid rebeccapurple 10px;
+    box-shadow: 13px 14px 24px 3px;
+    margin: 25px;
+}
+
+
+.sitemap li {
+    text-align: center;
+    padding: 8px;
+}
+
+
+li.pagenav ul li {
+    margin: 13px;
+    text-align: center;
 }
